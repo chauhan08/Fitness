@@ -1,0 +1,90 @@
+#about {
+    padding: 50px 0;
+    text-align: center;
+    background: url('images/about-bg.jpg') no-repeat center center/cover; 
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 23px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+    font-style: italic;
+     font-weight: bolder;
+  }
+  
+  .our-team {
+    margin-top: 50px;
+  }
+  
+  .our-team h2 {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .about-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .person {
+    position: relative;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .about-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease;
+  }
+  
+  .person:hover .caption {
+    opacity: 1;
+  }
+  
+  footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white; /* Set text color to white */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px; /* Increase font size for footer text */
+  }
