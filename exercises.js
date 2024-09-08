@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: 'INCLINE BENCH', video: 'videos/incline-bench.mp4' },
             { name: 'HIGH TO LOW FLY', video: 'videos/high-to-low-fly.mp4' }
         ],
-        arms: [
+        biceps: [
             { name: 'BARBELL CURL', video: 'videos/barbell-curl.mp4' },
             { name: 'PRECHER CURL', video: 'videos/precher-curl.mp4' },
             { name: 'DUMBELL CURL', video: 'videos/dumbell-curl.mp4' },
